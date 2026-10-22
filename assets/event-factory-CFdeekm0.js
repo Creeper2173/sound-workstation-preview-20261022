@@ -1,0 +1,1 @@
+var e={create(e=0,t=``,n=0,r=0,i){return{instrument:e,note:t,octave:n,action:r,recording:!1,seq:{playing:!1,startMeasure:0,startMeasureOffset:0,length:0,mpLength:0},mp:i}},createModuleParam(e,t,n=!1){return{module:e,value:t,glide:n}}};export{e as t};

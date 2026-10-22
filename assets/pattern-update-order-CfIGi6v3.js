@@ -1,0 +1,1 @@
+function e(e,t){let n=[...e.state.song.activeSong.order],r=()=>e.commit(`replacePatternOrder`,t);return r(),{undo(){e.commit(`replacePatternOrder`,n)},redo(){r()}}}export{e as t};

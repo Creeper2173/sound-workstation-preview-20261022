@@ -1,0 +1,1 @@
+var e=1180,t=()=>window.screen.availWidth<=685;export{t as n,e as t};

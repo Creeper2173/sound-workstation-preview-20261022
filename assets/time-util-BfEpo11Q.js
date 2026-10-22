@@ -1,0 +1,1 @@
+var e=[`Jan`,`Feb`,`Mar`,`Apr`,`May`,`Jun`,`Jul`,`Aug`,`Sep`,`Oct`,`Nov`,`Dec`],t={timestampToDate(t=Date.now()){let r=new Date(t),i=r.getFullYear(),a=e[r.getMonth()],o=r.getDate(),s=r.getHours(),c=r.getMinutes(),l=r.getSeconds();return`${o} ${a} ${i} ${n(s)}:${n(c)}:${n(l)}`}};function n(e){return e<10?`0${e}`:e.toString()}export{t};

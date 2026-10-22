@@ -1,0 +1,1 @@
+var e=e=>window.URL.createObjectURL(e),t=e=>window.URL.revokeObjectURL(e);export{t as n,e as t};
